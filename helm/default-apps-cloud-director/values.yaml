@@ -34,7 +34,7 @@ userConfig:
 
 apps:
   certExporter:
-    appName: cert-exporter
+    appName: ""
     chartName: cert-exporter
     catalog: default
     clusterValues:
