@@ -9,9 +9,9 @@ on:
       - master
       - main
     paths:
-      - 'helm/**/values.yaml'
-      - 'helm/**/values.schema.json'
-      - 'helm/**/ci/ci-values.yaml'
+      - 'helm/**/values.yaml'         # default helm chart values
+      - 'helm/**/values.schema.json'  # schema
+      - 'helm/**/ci/ci-values.yaml'   # overrides for CI (can contain required entries)
 
 jobs:
   check:
